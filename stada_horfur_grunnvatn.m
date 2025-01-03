@@ -10,8 +10,8 @@ elseif ismac
 
 elseif isunix
     img_dir = '/data/projects/brunnur/grunnvatn/';
-    addpath /data/git/wiskireader\
-    addpath /data/git/timeseriestools\
+    addpath /data/git/wiskireader/
+    addpath /data/git/timeseriestools/
     vis = 'off';
 end
 
