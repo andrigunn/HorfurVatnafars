@@ -23,7 +23,7 @@ FigureSettings;
 % Settings
 years2plot = [2020,2021,2022,2023,2024];
 bound_type = 'athuganir';
-
+ref_title = 'Mæld grunnvatnshæð';
 %% Read data to structures
 % G is groundwater data
 clear G
