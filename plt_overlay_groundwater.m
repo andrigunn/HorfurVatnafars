@@ -3,9 +3,7 @@ function plt_overlay_groundwater(O,years2plot,fig_title,unit,yname_upper_plt,bou
 %% NOTE: Years to plot are HYDROLOGICAL YEARS not CALANDER YEARS
 clear bnds
 hold on
-switch bound_type
-        
-    case 'athuganir'
+
         bnds_obs(:,:,1) = [O.rt.AY_median-O.rt.Q10,...
             O.rt.Q90-O.rt.AY_median];
         bnds_obs(:,:,2) = [O.rt.AY_median-O.rt.Q25,...
@@ -20,7 +18,6 @@ switch bound_type
         
         ref_title = 'Mæld grunnvatnshæð';
 
-end
 
 % viðmiðunarár til að teikna með 
 Legend=cell(3+length(years2plot),1);
