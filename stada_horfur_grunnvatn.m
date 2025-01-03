@@ -50,7 +50,7 @@ WData = readDataFromWiskiToTimetable(6067042);
 [G.Thorisvatn] = makeOverlayDataStack(WData.ThorisvatnGrasatangi.Time,WData.ThorisvatnGrasatangi.ResLVL,baseline_period);
 
 %%
-cmap = litir_rennslisvidmid./255
+cmap = litir_rennslisvidmid%./255
 cline = lines(3)
 %
 close all
